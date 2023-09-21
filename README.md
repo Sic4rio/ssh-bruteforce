@@ -55,5 +55,8 @@ Development
 License
 
 This project is licensed under the MIT License - see the LICENSE file for details
+
+
 ![Pun Enthusiast](https://img.shields.io/badge/Pun-Enthusiast-yellow)
 ![Pizza-Powered](https://img.shields.io/badge/Pizza-Powered-red)
+![Code Wizard](https://img.shields.io/badge/Code-Wizard-blue)

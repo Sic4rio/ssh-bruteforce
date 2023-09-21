@@ -1,12 +1,10 @@
 # SICARIO - SSH Brute Force Script
 
-[![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
-[![Python Version](https://img.shields.io/badge/Python-3.x-green.svg)](https://www.python.org/)
+
 ![Developed on Kali](https://img.shields.io/badge/Developed%20on-Kali%20Linux-orange.svg)
 ![Built with Love](https://img.shields.io/badge/Built%20with-Love-red)
 ![Powered by Coffee](https://img.shields.io/badge/Powered%20by-Coffee-brown)
 ![Nyan Cat Approved](https://img.shields.io/badge/Nyan%20Cat-Approved-orange)
-![Code Wizard](https://img.shields.io/badge/Code-Wizard-blue)
 ![Syntax Error Survivor](https://img.shields.io/badge/Syntax%20Error%20Survivor-green)
 ![Pun Enthusiast](https://img.shields.io/badge/Pun-Enthusiast-yellow)
 ![Pizza-Powered](https://img.shields.io/badge/Pizza-Powered-red)

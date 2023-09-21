@@ -32,9 +32,9 @@ Python script for performing SSH brute force attacks. It allows you to automate 
 
 1. Clone the repository:
 
-   ```
-   git clone https://github.com/your-username/sicario-ssh-bruteforce.git
-   cd sicario-ssh-bruteforce
+ ```
+ git clone https://github.com/your-username/sicario-ssh-bruteforce.git
+ cd sicario-ssh-bruteforce
    ```
 2. Install the required dependencies:
 

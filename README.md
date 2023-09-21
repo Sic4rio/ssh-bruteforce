@@ -6,7 +6,8 @@
 
 Python script for performing SSH brute force attacks. It allows you to automate the process of attempting various username and password combinations to gain access to SSH servers.
 
-![Sample Screenshot]([https://github.com/Sic4rio/ssh-bruteforce/blob/main/ssh-brute.png])
+![SSH Bruteforce](https://github.com/Sic4rio/ssh-bruteforce/raw/main/ssh-brute.png)
+
 
 ## Features
 

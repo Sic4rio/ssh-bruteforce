@@ -6,8 +6,6 @@
 ![Powered by Coffee](https://img.shields.io/badge/Powered%20by-Coffee-brown)
 ![Nyan Cat Approved](https://img.shields.io/badge/Nyan%20Cat-Approved-orange)
 ![Syntax Error Survivor](https://img.shields.io/badge/Syntax%20Error%20Survivor-green)
-![Pun Enthusiast](https://img.shields.io/badge/Pun-Enthusiast-yellow)
-![Pizza-Powered](https://img.shields.io/badge/Pizza-Powered-red)
 ![Jedi Developer](https://img.shields.io/badge/Jedi%20Developer-blue)
 
 Python script for performing SSH brute force attacks. It allows you to automate the process of attempting various username and password combinations to gain access to SSH servers.
@@ -57,3 +55,5 @@ Development
 License
 
 This project is licensed under the MIT License - see the LICENSE file for details
+![Pun Enthusiast](https://img.shields.io/badge/Pun-Enthusiast-yellow)
+![Pizza-Powered](https://img.shields.io/badge/Pizza-Powered-red)

